@@ -1,5 +1,7 @@
-export const ViewCode = () => {
+import github from "../../assets/github.svg"
+
+export const ViewCode = ({url}) => {
   return (
-    <button>View Live Code</button>
+    <a className="btn view-vode" href={url}><img src={github} alt="" aria-hidden />View Code</a>
   )
 }
