@@ -28,7 +28,7 @@ export const ProjectSection = () => {
   }, []);
 
   return (
-    <section>
+    <section className="project-wrapper">
       <h2>Featured Projects</h2>
       {projects &&
         projects.map(project => {
@@ -39,6 +39,7 @@ export const ProjectSection = () => {
               desc={project.description}
               homepage={project.homepage}
               github={project.html_url}
+              topics={project.topics}
             />
           );
         })}
