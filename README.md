@@ -52,6 +52,20 @@ Open up a terminal inside VS code and lets run the project in a local environmen
 
 ## The problem
 
+For week 8 we're creating a portfolio using React, to showcase the projects we're completed this far in the Bootcamp. The design is provided and we should follow is closely, practicing working with reusable components and figma.
+
+I forked the project and then followed the instructions on how to install - resultning in a somewhat confusing folder structure. It took some time before I got the hang of using git and npm within the structure.
+
+I decided to use the Github APi straight away, since putting the data into a json would be just as much work. I used the provided instructions for custom project images due to images not being included in the API.
+
+Since reusable compontens is part of the assignment, I opted to create a stylesheet for each component. I still feel this results in more repetition, but suspects it's necessary while for example working with design systems.
+
+I have some issues with deploying to Netlify...
+
+### Next step
+
 ## View it live
+
+[https://sofias-portfolio.netlify.app/](https://sofias-portfolio.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0b243f6d-7544-4a2e-86ca-417d353add22/deploy-status)](https://app.netlify.com/sites/sofias-portfolio/deploys)
