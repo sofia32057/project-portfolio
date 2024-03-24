@@ -1,5 +1,5 @@
 import "./skills.css"
-import skillsJson from "../../assets/skills.json";
+import skillsJson from "../../skills.json";
 import { SkillList } from "./SkillList";
 
 export const Skills = () => {

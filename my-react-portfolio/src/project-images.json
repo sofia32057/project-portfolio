@@ -1,0 +1,30 @@
+[
+  {
+    "repoName": "Project-Happy-Thoughts-Vite",
+    "imageUrl": "/project-images/project-happy-thoughts.jpeg"
+  },
+  {
+    "repoName": "project-chatbot",
+    "imageUrl": "/project-images/project-chatbot.jpeg"
+  },
+  {
+    "repoName": "project-library-solo",
+    "imageUrl": "/project-images/project-library-solo.jpeg"
+  },
+  {
+    "repoName": "project-music-releases-vite",
+    "imageUrl": "/project-images/project-music-releases-vite.jpeg"
+  },
+  {
+    "repoName": "project-survey-vite-solo",
+    "imageUrl": "/project-images/project-survey-vite-solo.jpeg"
+  },
+  {
+    "repoName": "project-weather-app",
+    "imageUrl": "/project-images/project-weather-app.jpeg"
+  },
+  {
+    "repoName": "project-news-site",
+    "imageUrl": "/project-images/project-news-site.jpeg"
+  }
+]
