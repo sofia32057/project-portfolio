@@ -1,12 +1,7 @@
-import { useState } from "react";
 import skillsJson from "../../assets/skills.json";
 import { SkillList } from "./SkillList";
 
 export const Skills = () => {
-  // const [skillset, setSkillset] = useState({
-  //   skillType: "Code",
-  //   skills: ["test", "test again"],
-  // });
 
   return (
     <section>

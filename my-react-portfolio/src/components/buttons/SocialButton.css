@@ -1,0 +1,3 @@
+.btn-social > img:hover {
+  filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(272deg) brightness(100%) contrast(100%);
+}

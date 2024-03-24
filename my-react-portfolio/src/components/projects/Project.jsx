@@ -1,5 +1,4 @@
-import { LiveDemo } from "../buttons/LiveDemo.jsx";
-import { ViewCode } from "../buttons/ViewCode.jsx";
+import { Button } from "../buttons/Button.jsx";
 import { ProjectImage } from "./ProjectImage.jsx";
 import { Tag } from "./Tag.jsx";
 
@@ -25,8 +24,8 @@ export const Project = ({ name, desc, homepage, github, topics }) => {
         </ul>
       </div>
       <div className="project-btns">
-        <LiveDemo url={homepage} />
-        <ViewCode url={github} />
+        <Button className="live-demo" url={homepage} />
+        <Button className="view-code" url={github} />
       </div>
     </article>
   );
