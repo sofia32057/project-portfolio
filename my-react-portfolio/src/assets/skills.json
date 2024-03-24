@@ -1,0 +1,46 @@
+[
+  {
+    "skillType": "Code",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "ES6",
+      "React",
+      "Styled Components",
+      "GitHub"
+    ]
+  },
+  {
+    "skillType": "Toolbox",
+    "skills": [
+      "Visual Studio Code",
+      "Git",
+      "Postman",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Figma",
+      "Powerpoint",
+      "Slack"
+    ]
+  },
+  {
+    "skillType": "Upcoming",
+    "skills": ["Node.js", "Express.js", "MongoDB", "Typescript"]
+  },
+  {
+    "skillType": "More",
+    "skills": [
+      "Digital Strategy",
+      "Project Management",
+      "Agile Methodology",
+      "Web Analytics",
+      "Search Engine Optimization",
+      "Content Marketing",
+      "Branding",
+      "E-commerce",
+      "Digital Marketing",
+      "Customer Experience"
+    ]
+  }
+]
