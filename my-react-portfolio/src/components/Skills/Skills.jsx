@@ -1,10 +1,11 @@
+import "./skills.css"
 import skillsJson from "../../assets/skills.json";
 import { SkillList } from "./SkillList";
 
 export const Skills = () => {
 
   return (
-    <section>
+    <section className="skills">
       <h2>Skills</h2>
       {skillsJson.map(obj => {
         return (

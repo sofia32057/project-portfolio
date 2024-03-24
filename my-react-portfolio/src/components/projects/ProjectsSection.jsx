@@ -1,5 +1,6 @@
+import "./projectSection.css"
 import { useEffect, useState } from "react";
-import { Project } from "./Project";
+import { ProjectCard } from "./ProjectCard.jsx";
 
 export const ProjectSection = () => {
   const [projects, setProjects] = useState([]);
@@ -28,12 +29,12 @@ export const ProjectSection = () => {
   }, []);
 
   return (
-    <section className="project-wrapper">
+    <section className="projects">
       <h2>Featured Projects</h2>
       {projects &&
         projects.map(project => {
           return (
-            <Project
+            <ProjectCard
               key={project.id}
               name={project.name}
               desc={project.description}

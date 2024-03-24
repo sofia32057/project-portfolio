@@ -1,3 +1,4 @@
+import "./projectImage.css"
 import projectImages from "../../assets/project-images/project-images.json"
 
 export const ProjectImage = ({repo}) => {

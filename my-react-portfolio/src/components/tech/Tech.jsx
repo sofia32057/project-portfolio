@@ -1,7 +1,8 @@
+import "./tech.css"
 
 export const Tech = () => {
   return (
-    <section>
+    <section className="tech">
       <h2>Tech</h2>
       <p>HTML, CSS, Flexbox, JavaScript, ES6, 
 JSX, React, React Hooks, Node.js, 

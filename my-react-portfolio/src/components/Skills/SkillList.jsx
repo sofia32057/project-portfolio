@@ -1,6 +1,8 @@
+import "./skillList.css"
+
 export const SkillList = ({ skillType, skills }) => {
   return (
-    <div>
+    <div className="skillset">
       <h3>{skillType}</h3>
       <ul>
         {skills.map(skill => {

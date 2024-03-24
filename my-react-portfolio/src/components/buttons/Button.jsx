@@ -1,3 +1,4 @@
+import "./button.css"
 import globe from "../../assets/globe.svg";
 import github from "../../assets/github-dark.svg";
 import { useEffect, useState } from "react";

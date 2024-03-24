@@ -6,8 +6,11 @@ export const Top = () => {
   return (
     <header>
       <ProfileImg />
-      <p className="">Hi, I&apos;m Sofia.</p>
+      <div className="heading-container">
+      <p className="pre-heading">Hi, I&apos;m Sofia.</p>
       <h1>Junior Web Developer</h1>
+      </div>
+
       <p className="desc">
         Sofia is a senior e-commerce specialist who recently started her
         adventure into Web Development with the Technigo Web Development

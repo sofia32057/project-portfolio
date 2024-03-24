@@ -1,12 +1,13 @@
+import "./projectCard.css"
 import { Button } from "../buttons/Button.jsx";
 import { ProjectImage } from "./ProjectImage.jsx";
 import { Tag } from "./Tag.jsx";
 
-export const Project = ({ name, desc, homepage, github, topics }) => {
+export const ProjectCard = ({ name, desc, homepage, github, topics }) => {
   const heading = name.replaceAll("-", " ");
 
   return (
-    <article className="project">
+    <article className="project-card">
       <ProjectImage repo={name} />
       <div className="project-info">
         <h3>{heading}</h3>
