@@ -5,8 +5,12 @@
   --decor-color-2: #2483E0;
   --decor-color-3: #6DB486;
   --decor-color-4: #FFDE30;
-
   --font-color: #333;
+
+  --gap-xl: 128px;
+  --gap-l: 128px;
+  --gap-m: 64px;
+  --gap-s: 64px;
 
   font-family: "Hind", sans-serif;
   font-synthesis: none;
@@ -66,13 +70,6 @@ a {
 ul {
   list-style-type: none;
   padding-inline-start: 0;
-}
-
-.profile-img {
-  width: 164px;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 164px;
 }
 
 @media all and (min-width: 668px) {
