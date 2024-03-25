@@ -1,16 +1,51 @@
 .tech {
   background-color: var(--primary-color);
+  width: 100%;
   color: white;
+  padding: 128px 1rem;
+}
+
+.tech-container {
+  max-width: var(--max-width-s);
+  margin: 0 auto;
   display: flex;
-  padding: 128px 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 64px;
+  gap: var(--gap-s);
 }
 
 .tech > p {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 24px;
   font-weight: 600;
+}
+
+@media all and (min-width: 668px) {
+  .tech-container > p {
+    text-shadow: none;
+    text-align: center;
+    padding: 0 20%;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .tech-container {
+    max-width: var(--max-width-l);
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-l);
+  }
+
+  .tech-container > p {
+    text-align: left;
+    width: 66%;
+    padding: initial;
+    flex: 1 0 0;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+@media all and (min-width: 1400px) {
 }

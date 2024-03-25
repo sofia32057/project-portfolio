@@ -1,11 +1,31 @@
 .projects {
   display: flex;
-  padding: 128px 16px;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 64px;
+  width: 100%;
+}
+
+.projects-container {
+  max-width: var(--max-width-s);
 }
 
 .projects h2 {
   color: var(--primary-color);
+}
+
+@media all and (min-width: 668px) {
+  .projects-container {
+    max-width: var(--max-width-m);
+  }
+}
+@media all and (min-width: 1024px) {
+  .projects-container {
+    max-width: var(--max-width-l);
+  }
+}
+@media all and (min-width: 1400px) {
+  .projects-container {
+    max-width: var(--max-width-xl);
+  }
 }

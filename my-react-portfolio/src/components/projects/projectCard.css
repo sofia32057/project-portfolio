@@ -28,3 +28,10 @@
   gap: 16px;
   align-self: stretch;
 }
+
+@media all and (min-width: 668px) {
+  .project-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

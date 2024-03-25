@@ -1,4 +1,4 @@
-import "./projectSection.css"
+import "./projectSection.css";
 import { useEffect, useState } from "react";
 import { ProjectCard } from "./ProjectCard.jsx";
 
@@ -30,20 +30,22 @@ export const ProjectSection = () => {
 
   return (
     <section className="projects">
-      <h2>Featured Projects</h2>
-      {projects &&
-        projects.map(project => {
-          return (
-            <ProjectCard
-              key={project.id}
-              name={project.name}
-              desc={project.description}
-              homepage={project.homepage}
-              github={project.html_url}
-              topics={project.topics}
-            />
-          );
-        })}
+      <dir className="projects-container">
+        <h2>Featured Projects</h2>
+        {projects &&
+          projects.map(project => {
+            return (
+              <ProjectCard
+                key={project.id}
+                name={project.name}
+                desc={project.description}
+                homepage={project.homepage}
+                github={project.html_url}
+                topics={project.topics}
+              />
+            );
+          })}
+      </dir>
     </section>
   );
 };
