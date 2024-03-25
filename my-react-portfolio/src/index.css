@@ -1,20 +1,28 @@
 :root {
   --primary-color: #0b24f5;
   --secondary-color: #ff4575;
-  --decor-color-1: #EB5577;
-  --decor-color-2: #2483E0;
-  --decor-color-3: #6DB486;
-  --decor-color-4: #FFDE30;
+  --decor-color-1: #eb5577;
+  --decor-color-2: #2483e0;
+  --decor-color-3: #6db486;
+  --decor-color-4: #ffde30;
   --font-color: #333;
 
   --gap-xl: 128px;
   --gap-l: 128px;
   --gap-m: 64px;
   --gap-s: 64px;
+  --max-width-xl: 1044px;
+  --max-width-l: 75vw;
+  --max-width-m: 90vw;
+  --max-width-s: 90vw;
+
+  --font-size-s: 16px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 18px;
 
   font-family: "Hind", sans-serif;
   font-synthesis: none;
-  font-size: 16px;
   color: var(--font-color);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -45,6 +53,12 @@ h3 {
   line-height: normal;
 }
 
+h1 {
+  color: #0b24f5;
+  font-size: 32px;
+  font-weight: 700;
+}
+
 h2 {
   text-align: center;
   font-size: 56px;
@@ -52,8 +66,8 @@ h2 {
 }
 
 h3 {
-font-size: 24px;
-font-weight: 600;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 p {
@@ -73,14 +87,22 @@ ul {
 }
 
 @media all and (min-width: 668px) {
-  .project-image {
-    height: 280px;
-    width: 200px;
-    object-fit: cover;
+  h1 {
+    font-size: 56px;
   }
 }
 
 @media all and (min-width: 1024px) {
+  h1,
+  h2 {
+    font-size: 80px;
+    font-size: 80px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
   .project-wrapper {
     row-gap: 128px;
   }
@@ -88,11 +110,5 @@ ul {
   .project {
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  .project-image {
-    height: 280px;
-    width: 280px;
-    object-fit: cover;
   }
 }

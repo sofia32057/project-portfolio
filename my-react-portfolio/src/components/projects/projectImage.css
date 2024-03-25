@@ -5,3 +5,19 @@
   height: 200px;
   max-width: 100%;
 }
+
+@media all and (min-width: 668px) {
+  .project-image {
+    height: 280px;
+    width: 200px;
+    object-fit: cover;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .project-image {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+  }
+}

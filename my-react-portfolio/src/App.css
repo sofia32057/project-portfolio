@@ -1,6 +1,6 @@
 #root {
   display: flex;
-  padding: 64px 16px;
+  padding: 64px 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
