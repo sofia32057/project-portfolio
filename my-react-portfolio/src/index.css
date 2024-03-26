@@ -11,6 +11,7 @@
   --gap-l: 128px;
   --gap-m: 64px;
   --gap-s: 64px;
+
   --max-width-xl: 1044px;
   --max-width-l: 75vw;
   --max-width-m: 90vw;
@@ -86,6 +87,13 @@ ul {
   padding-inline-start: 0;
 }
 
+section {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 @media all and (min-width: 668px) {
   h1 {
     font-size: 56px;
@@ -111,5 +119,4 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
 }

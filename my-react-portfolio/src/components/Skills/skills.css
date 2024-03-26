@@ -1,9 +1,46 @@
+root {
+  --padding-s: 128px;
+  --padding-m: 128px;
+  --padding-l: 128px;
+  --padding-xl: 128px;
+}
+
 .skills {
   background: #0b24f5;
   color: white;
-  display: inline-flex;
-  padding: 128px 99px;
+  padding: 128px 0;
   flex-direction: column;
   align-items: center;
   gap: 64px;
+}
+
+.skills-container {
+  display: flex;
+  width: var(--max-width-s);
+  flex-direction: column;
+  gap: 64px;
+}
+
+@media all and (min-width: 668px) {
+  .skills-container {
+    max-width: var(--max-width-s);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .skills {
+    gap: 128px;
+  }
+
+  .skills-container {
+    gap: 128px;
+    width: var(--max-width-l);
+  }
+}
+
+@media all and (min-width: 1400px) {
 }

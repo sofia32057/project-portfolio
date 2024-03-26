@@ -3,11 +3,14 @@
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 164px;
+}
+
+header .profile-img {
   order: 1;
 }
 
 @media all and (min-width: 668px) {
-  .profile-img {
+  header .profile-img {
     order: 2;
   }
 }

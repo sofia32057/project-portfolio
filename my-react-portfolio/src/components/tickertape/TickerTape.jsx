@@ -1,4 +1,4 @@
-
+import "./tickertape.css"
 
 export const TickerTape = () => {
 const string = "sofia · junior web developer · ";

@@ -3,10 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 128px 0;
   width: 100%;
 }
 
 .projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
   max-width: var(--max-width-s);
 }
 

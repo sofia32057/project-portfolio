@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  padding-top: 128px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.talk-container {
+  display: flex;
+  width: var(--max-width-s);
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.talk-container h2 {
+  color: var(--primary-color);
+}
+
+address ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #000;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media all and (min-width: 668px) {
+}
+@media all and (min-width: 1024px) {
+}
+@media all and (min-width: 1400px) {
+}

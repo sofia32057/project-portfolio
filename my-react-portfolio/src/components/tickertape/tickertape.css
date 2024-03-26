@@ -1,0 +1,17 @@
+.ticker-tape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 1512px;
+  height: 114px;
+  flex-shrink: 0;
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.ticker-tape p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+}
