@@ -1,12 +1,5 @@
-.tech {
-  background-color: var(--primary-color);
-  width: 100%;
-  color: white;
-  padding: 128px 1rem;
-}
-
 .tech-container {
-  max-width: var(--max-width-s);
+  width: var(--max-width-s);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -31,7 +24,7 @@
 
 @media all and (min-width: 1024px) {
   .tech-container {
-    max-width: var(--max-width-l);
+    width: var(--max-width-l);
     flex-direction: row;
     justify-content: space-between;
     gap: var(--gap-l);
@@ -48,4 +41,7 @@
   }
 }
 @media all and (min-width: 1400px) {
+  .tech-container {
+    max-width: var(--max-width-xl);
+  }
 }

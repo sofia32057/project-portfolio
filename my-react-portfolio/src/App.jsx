@@ -1,17 +1,24 @@
 import "./App.css";
-import { Tech } from "./components/tech/Tech.jsx";
 import { Top } from "./components/top/Top.jsx";
-import { ProjectSection } from "./components/projects/ProjectsSection.jsx";
-import { Skills } from "./components/Skills/Skills.jsx";
 import { Talk } from "./components/talk/Talk.jsx";
+import { Section } from "./components/section/Section.jsx";
 
 export const App = () => {
   return (
     <>
       <Top />
-      <Tech />
-      <ProjectSection />
-      <Skills />
+      <Section
+        className={"tech color"}
+        id={"tech"}
+      />
+      <Section
+        className={"projects"}
+        id={"projects"}
+      />
+      <Section
+        className={"skills color"}
+        id={"skills"}
+      />
       <Talk />
     </>
   );

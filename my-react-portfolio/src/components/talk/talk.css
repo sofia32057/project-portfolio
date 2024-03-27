@@ -12,6 +12,7 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 64px;
+  padding-bottom: 128px;
 }
 
 .talk-container h2 {
@@ -27,14 +28,21 @@ address ul {
   font-family: Montserrat;
   text-align: center;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 
 @media all and (min-width: 668px) {
+  .talk-container {
+    width: var(--max-width-m);
+  }
 }
 @media all and (min-width: 1024px) {
+  .talk-container {
+    width: var(--max-width-l);
+  }
 }
 @media all and (min-width: 1400px) {
+  .talk-container {
+    max-width: var(--max-width-xl);
+  }
 }

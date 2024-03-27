@@ -4,7 +4,7 @@ import { SkillList } from "./SkillList";
 
 export const Skills = () => {
   return (
-    <section className="skills">
+    <>
       <h2>Skills</h2>
       <div className="skills-container">
         {skillsJson.map(obj => {
@@ -17,6 +17,6 @@ export const Skills = () => {
           );
         })}
       </div>
-    </section>
+    </>
   );
 };

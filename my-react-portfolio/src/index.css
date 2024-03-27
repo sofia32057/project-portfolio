@@ -5,7 +5,8 @@
   --decor-color-2: #2483e0;
   --decor-color-3: #6db486;
   --decor-color-4: #ffde30;
-  --font-color: #333;
+  --font-color-dark: #333;
+  --font-color-light: white;
 
   --gap-xl: 128px;
   --gap-l: 128px;
@@ -22,9 +23,17 @@
   --font-size-l: 18px;
   --font-size-xl: 18px;
 
+  --image-width-s: 100%;
+  --image-width-m: 30%;
+  --image-width-l: 40%;
+
+  --padding-s: 128px;
+  --padding-m: 128px;
+  --padding-l: 128px;
+  --padding-xl: 128px;
+
   font-family: "Hind", sans-serif;
   font-synthesis: none;
-  color: var(--font-color);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -55,7 +64,7 @@ h3 {
 }
 
 h1 {
-  color: #0b24f5;
+  color: var(--primary-color);
   font-size: 32px;
   font-weight: 700;
 }
@@ -79,19 +88,12 @@ p {
 
 a {
   text-decoration: none;
-  color: var(--font-color);
+  color: var(--font-color-dark);
 }
 
 ul {
   list-style-type: none;
   padding-inline-start: 0;
-}
-
-section {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 @media all and (min-width: 668px) {
@@ -109,14 +111,5 @@ section {
 
   h3 {
     font-size: 32px;
-  }
-
-  .project-wrapper {
-    row-gap: 128px;
-  }
-
-  .project {
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 }

@@ -1,0 +1,18 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 0;
+  width: 100%;
+  gap: 64px;
+}
+
+.color {
+  background: var(--primary-color);
+  color: white;
+}
+
+@media all and (min-width: 668px) {}
+@media all and (min-width: 1024px) {}
+@media all and (min-width: 1400px) {}
