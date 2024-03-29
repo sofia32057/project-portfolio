@@ -1,7 +1,7 @@
 import "./top.css";
-import Arrow from "../../assets/Arrow.svg";
 import { ProfileImage } from "../profileImage/ProfileImage";
 import { Heading } from "../heading/Heading";
+import { Arrow } from "../arrow/Arrow";
 
 export const Top = () => {
   return (
@@ -22,15 +22,7 @@ export const Top = () => {
           </p>
         </div>
       </div>
-
-      <div className="arrow-wrapper">
-        <img
-          src={Arrow}
-          alt=""
-          aria-hidden
-          id="arrow"
-        />
-      </div>
+    <Arrow />
     </header>
   );
 };

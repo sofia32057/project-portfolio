@@ -9,7 +9,7 @@ export const ProjectCard = ({ name, desc, homepage, github, topics }) => {
 
   return (
     <article className="project-card">
-      <ProjectImage repo={name} />
+      <ProjectImage repo={name} url={homepage} alt={heading} />
       <div className="project-details">
         <div className="project-info">
           <Heading level="3" content={heading}/>

@@ -1,0 +1,22 @@
+.arrow-wrapper {
+  padding-bottom: 1rem;
+  margin-bottom: -1rem;
+  }
+
+  #arrow {
+    animation: arrowJump 1s linear 0s infinite;
+    animation-play-state: running;
+  }
+
+  .arrow-wrapper:hover #arrow {
+    animation-play-state: paused;
+  }
+
+  @keyframes arrowJump {
+    from {
+      transform: translateY(0%);
+    }
+    to {
+      transform: translateY(50%);
+    } 
+  }

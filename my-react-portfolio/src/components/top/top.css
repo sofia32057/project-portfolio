@@ -46,15 +46,6 @@ h1,
   font-weight: 400;
 }
 
-.arrow-wrapper {
-padding-bottom: 1rem;
-margin-bottom: -1rem;
-}
-
-.arrow-wrapper img:hover {
-  transform: translateY(50%);
-}
-
 @media all and (min-width: 668px) {
   header {
     display: inline-flex;
