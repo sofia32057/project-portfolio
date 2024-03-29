@@ -1,6 +1,7 @@
 import "./projects.css";
 import { useEffect, useState } from "react";
 import { ProjectCard } from "./ProjectCard.jsx";
+import { Heading } from "../heading/Heading.jsx";
 
 export const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -30,7 +31,7 @@ export const Projects = () => {
 
   return (
     <dir className="projects-container">
-      <h2>Featured Projects</h2>
+      <Heading level="2" content="Featured Projects"/>
       {projects &&
         projects.map(project => {
           return (

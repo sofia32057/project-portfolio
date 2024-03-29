@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #0b24f5;
+  --primary-color: #85677B;
   --secondary-color: #ff4575;
   --decor-color-1: #eb5577;
-  --decor-color-2: #2483e0;
-  --decor-color-3: #6db486;
-  --decor-color-4: #ffde30;
+  --decor-color-2: #750013;
+  --decor-color-3: #2DBEB1;
+  --decor-color-4: #FFBE98;
   --font-color-dark: #333;
   --font-color-light: white;
 
@@ -50,34 +50,10 @@
   font-family: Montserrat;
   src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
+
 @font-face {
   font-family: Hind;
   src: url(./assets/fonts/Hind-Medium.ttf);
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Montserrat";
-  font-style: normal;
-  line-height: normal;
-}
-
-h1 {
-  color: var(--primary-color);
-  font-size: 32px;
-  font-weight: 700;
-}
-
-h2 {
-  text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: 600;
 }
 
 p {

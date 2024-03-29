@@ -1,6 +1,6 @@
 .project-image {
-  border-bottom: 10px solid #0025ff;
-  border-left: 10px solid #0025ff;
+  border-bottom: 10px solid var(--primary-color);
+  border-left: 10px solid var(--secondary-color);
   max-width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;

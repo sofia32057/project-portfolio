@@ -2,6 +2,7 @@ import "./projectCard.css";
 import { Button } from "../buttons/Button.jsx";
 import { ProjectImage } from "./ProjectImage.jsx";
 import { Tag } from "./Tag.jsx";
+import { Heading } from "../heading/Heading.jsx";
 
 export const ProjectCard = ({ name, desc, homepage, github, topics }) => {
   const heading = name.replaceAll("-", " ");
@@ -11,7 +12,7 @@ export const ProjectCard = ({ name, desc, homepage, github, topics }) => {
       <ProjectImage repo={name} />
       <div className="project-details">
         <div className="project-info">
-          <h3>{heading}</h3>
+          <Heading level="3" content={heading}/>
           <p>{desc}</p>
           <ul className="tags">
             {topics.map(

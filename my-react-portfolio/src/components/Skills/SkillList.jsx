@@ -1,9 +1,10 @@
+import { Heading } from "../heading/Heading";
 import "./skillList.css"
 
-export const SkillList = ({ skillType, skills }) => {
+export const SkillList = ({ skillset, skills }) => {
   return (
     <div className="skillset">
-      <h3>{skillType}</h3>
+      <Heading level="3" content={skillset}/>
       <ul>
         {skills.map(skill => {
           return <li key={skill}>{skill}</li>;

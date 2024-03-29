@@ -9,7 +9,11 @@ section {
 }
 
 .color {
-  background: var(--primary-color);
+  background: radial-gradient(circle,var(--decor-color-1) 10%,var(--primary-color) 90%);
+  color: white;
+}
+
+.color h2 {
   color: white;
 }
 

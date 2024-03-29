@@ -11,7 +11,7 @@ export const Skills = () => {
           return (
             <SkillList
               key={obj.skillType}
-              skillType={obj.skillType}
+              skillset={obj.skillType}
               skills={obj.skills}
             />
           );

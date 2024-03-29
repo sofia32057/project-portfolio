@@ -1,6 +1,7 @@
 import "./top.css";
 import Arrow from "../../assets/Arrow.svg";
 import { ProfileImage } from "../profileImage/ProfileImage";
+import { Heading } from "../heading/Heading";
 
 export const Top = () => {
   return (
@@ -9,7 +10,7 @@ export const Top = () => {
         <ProfileImage />
         <div className="heading-container">
           <p className="pre-heading">Hi, I&apos;m Sofia.</p>
-          <h1>Junior Web Developer</h1>
+          <Heading level="1" content="Junior Web Developer"/>
         </div>
         <div className="desc-wrapper">
           <p className="desc">
