@@ -1,21 +1,32 @@
+.image-wrapper {
+  width: 100%;
+}
+
 .project-image {
   border-bottom: 10px solid var(--primary-color);
   border-left: 10px solid var(--secondary-color);
-  max-width: 100%;
+  width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
 }
 
 @media all and (min-width: 668px) {
-  .project-image {
+  .image-wrapper {
     width: var(--image-width-m);
+  }
+
+  .project-image {
     aspect-ratio: 5/7;
   }
 }
 
 @media all and (min-width: 1024px) {
-  .project-image {
+  .image-wrapper {
     width: var(--image-width-l);
+  }
+
+  .project-image {
+    width: 100%;
     aspect-ratio: 3/2;
   }
 }

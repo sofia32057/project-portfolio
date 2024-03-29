@@ -19,7 +19,6 @@ export const Projects = () => {
         const projects = await data.filter(project =>
           project.topics.includes("portfolio")
         );
-        console.log("Projects in fetch", projects);
         setProjects(projects);
       } catch (error) {
         throw new Error("Error:", error);
