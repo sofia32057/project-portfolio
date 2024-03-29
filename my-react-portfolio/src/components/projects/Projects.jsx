@@ -19,6 +19,7 @@ export const Projects = () => {
         const projects = await data.filter(project =>
           project.topics.includes("portfolio")
         );
+        projects.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
         setProjects(projects);
       } catch (error) {
         throw new Error("Error:", error);
