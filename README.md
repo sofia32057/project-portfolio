@@ -60,7 +60,9 @@ I decided to use the Github APi straight away, since putting the data into a jso
 
 Since reusable compontens is part of the assignment, I opted to create a stylesheet for each component. I still feel this results in more repetition, but suspects it's necessary while for example working with design systems.
 
-I have some issues with deploying to Netlify...
+Further into the project I created more reusable components, trying to get into the way of thinking. I still kind of feel it's MORE code making headings a component than just using the tag and classes.
+
+The biggest styling issue I had with skills, since the design breaks the skills after two - while the width supports three. Due to putting my skills in a json I couldn't just put the box where I needed it, so I had to google a way to create new boxes every two element while mapping. I kind of get how it works...
 
 ### Next step
 

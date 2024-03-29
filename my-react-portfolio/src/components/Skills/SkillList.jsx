@@ -5,7 +5,7 @@ export const SkillList = ({ skillset, skills }) => {
   return (
     <div className="skillset">
       <Heading level="3" content={skillset}/>
-      <ul>
+      <ul className="skill-list">
         {skills.map(skill => {
           return <li key={skill}>{skill}</li>;
         })}

@@ -1,23 +1,30 @@
-.skills-container {
-  display: flex;
+.skills-container { 
   width: var(--max-width-s);
+}
+
+.skills-container,
+.skills-group {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 64px;
 }
 
 @media all and (min-width: 668px) {
-  .skills-container {
+  .skills-container { 
+    width: var(--max-width-m);
+  }
+
+  .skills-container,
+  .skills-group {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    width: var(--max-width-m);
   }
 }
 
 @media all and (min-width: 1024px) {
   .skills-container {
-    gap: 128px;
     width: var(--max-width-l);
   }
 }
