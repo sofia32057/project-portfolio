@@ -38,6 +38,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+    flex-grow: 1;
   }
 
   .skillset li {

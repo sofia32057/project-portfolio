@@ -13,9 +13,6 @@
 @media all and (min-width: 668px) {
   .skills-container { 
     width: var(--max-width-m);
-  }
-
-  .skills-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -29,6 +26,19 @@
 @media all and (min-width: 1024px) {
   .skills-container {
     width: var(--max-width-l);
+  }
+
+  .skills-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .skills-container,
+  .skills-group {
+    justify-content: space-evenly;
+    flex-grow: 1;
+    gap: inherit;
   }
 }
 
