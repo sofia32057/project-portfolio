@@ -15,11 +15,14 @@
     width: var(--max-width-m);
   }
 
-  .skills-container,
-  .skills-group {
+  .skills-container {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
+  }
+
+  .skills-group {
+    justify-content: flex-start;
+    align-items: stretch;
   }
 }
 

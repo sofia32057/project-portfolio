@@ -13,7 +13,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 32px;
   max-width: var(--max-width-s);
 }
 
@@ -22,10 +22,8 @@ header {
 }
 
 h1,
-.pre-heading,
-.desc {
+.pre-heading {
   font-family: "Montserrat";
-  align-self: stretch;
 }
 
 .pre-heading {
@@ -54,7 +52,7 @@ h1,
   }
 
   .about-container {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     max-width: var(--max-width-m);
@@ -71,7 +69,7 @@ h1,
 
   .desc-wrapper {
     vertical-align: middle;
-    width: calc(100% - (1rem + 164px));
+    width: calc(100% - (32px + 164px));
   }
 }
 
@@ -87,10 +85,6 @@ h1,
   .pre-heading {
     font-size: 32px;
   }
-
-  .desc-wrapper {
-    width: calc(100% - (1rem + 164px));
-  }
 }
 @media all and (min-width: 1400px) {
   header {
@@ -99,9 +93,5 @@ h1,
 
   .about-container {
     max-width: var(--max-width-xl);
-  }
-
-  .desc-wrapper {
-    width: calc(100% - (1rem + 164px));
   }
 }
